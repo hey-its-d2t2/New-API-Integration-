@@ -41,6 +41,9 @@ public class NewsServiceImpl implements NewsService{
             dto.setUrl(article.getUrl());
             dto.setUrlToImage(article.getUrlToImage());
             dto.setPublishedAt(article.getPublishedAt());
+            dto.setAuthor(article.getAuthor());
+
+
             return dto;
         }).collect(Collectors.toList());
 
