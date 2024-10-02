@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface NewsService {
     List<NewsDto> getNewsArticles();
-    NewsDto getNewsArticleByUrl(String url);
+    /*NewsDto getNewsArticleByUrl(String url);*/
 }
